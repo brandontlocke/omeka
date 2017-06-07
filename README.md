@@ -1,7 +1,8 @@
-# Omeka Tutorial
-Created by Dawson McCall and Brandon Locke
+# Omeka Classic Tutorial
+Created by Brandon Locke and Dawson McCall
 
-## Omeka Overview
+## Omeka Classic Overview
+* *Omeka Classic* is the name for the single-site, self-hosted Omeka software platform. [*Omeka.net*](http://omeka.net) is a free, hosted version of the single site Omeka platform. [*Omeka-S*](http://omeka.org/s/) an Omeka platform with linked open data and the ability to develop multiple sites from the same installation.
 * Omeka is a web-publishing platform for the online display and curation of visual collections and exhibitions.
 * Great tool for projects utilizing visual images, physical objects, and material culture items.
 * Some of the most importatn Omeka featues include: standards-based metadata and web design, data migration tools, exhibit building, curation and organization of material culture items/collections/exhibits, tagging features, and timeline and Google Maps plugins.
@@ -23,6 +24,50 @@ Created by Dawson McCall and Brandon Locke
   1. Items - [Omeka Documentation - Managing Items 2.0](http://omeka.org/codex/Managing_Items_2.0)
   2. Collections - [Omeka Documentation - Managing Collections 2.0](http://omeka.org/codex/Managing_Collections_2.0)
   3. Exhibits - [Omeka Documentation - Exhibits, Plugins/Exhibit Builder 2.0](http://omeka.org/codex/Plugins/ExhibitBuilder_2.0)
+
+## Constructing a Digital Collection
+
+### Adding Items
+1. Click on *Items* at the top of the menu on the far left of the screen
+2. Click *Add an Item* in the top left corner of the screen - it's a green button
+3. There are four different tabs at the top:
+* *Dublin Core* is more descriptive metadata
+* *Item Type Metadata* has metadata that varies based upon the format of the item
+* *Files* allows you to upload any number of files (sound files, video files, photos, PDFs, etc)
+* *Tags* allows you to add tags that enable searching and browsing across different parts of the collections
+4. Start filling out your Dublin Core metadata for the item. There is a brief description of what is expected for each field. Click on *Add Input* if you want to add more than one of any field. For example, if you want more than one 'Subject', rather than listing them all in the subject field, add multiple inputs and put one subject term in each field.
+3. Add any relevant Item Type Metadata on the next tab. Once you select an item type, additional, specialized fields will appear below.
+4. Upload any media files you would like associated with the item.
+5. Add any tags you would like, separating multiple tags with a comma.
+6. On the right side, check the *Public* box, and hit *add item*. (*Featured* is an option you can select for any items, collections, and exhibits that will allow you to highlight some of your best items/collections/exhibits.)
+
+### Collections
+Collections may be used in a variety of contexts that make the most sense for your archive. It is not necessary to follow a traditional interpretation of a collection, say by owner or donor. Items can only belong to one collection, so be sure to take that into consideration before determining your collection scheme
+
+1. Click on the "Collections" tab on the left navigation bar.
+2. Any existing collections will be listed here. Click "Add a Collection" and then fill out collection-level Dublin Core metadata.
+3. You may associate an item with this collection, and all others you create, when adding or editing an item.
+4. Be sure to click "Save Collection" to save your newly-created collection.
+
+### Exhibits
+#### Creating an Exhibit
+1. Click on *Exhibits* on the left navigation bar.
+2. Click *Add an Exhibit* — you'll be asked to give it a title, a slug (the last part of the URL), credits, a description, and any tags you may feel are relevant.
+3. Select a theme - you can use a theme that's different from the rest of the Omeka site, but it's probably best to stick with "Current Public Theme"
+4. An exhibit summary page displays the exhibit description and navigation options. If this box is unchecked, users navigating to the exhibit will start on the first page of the exhibit.
+
+#### Constructing an Exhibit
+Exhibits are comprised of pages (and sub-pages) that are composed of Omeka items, text, and uploaded media files. When you add a new page, you give it a title and slug, and then begin to build out content blocks to make up the page.
+
+Each page can have an unlimited number of *content blocks* that take one of several forms:
+
+* The **File with Text** block allows you to pair fullsize or thumbnail files of your items with a block of text. The item files will all be the same size. Text will appear either to the right or left of the item(s). You can use a single item file paired with text, or have multiple item files to the right or left of a block of text.
+* The **Gallery** block creates a gallery of item files, generally large square thumbnails. You can add text to the gallery, which will display left or right of the gallery. In a gallery block, you can specify a showcase file, which will appear fullsize either to the right or left of the text. The other gallery images can be placed below the showcase image or beside it, over the text.
+* The **Text** block allows you to create a section of text which spans the width of the entire page.
+
+Once pages are created, you can click and drag the pages around to reorder them and make pages sub-pages of others.
+
+*Other plugins may have additional content types that you can import*
 
 ## Design and Finishing Touches
 ### Themes
