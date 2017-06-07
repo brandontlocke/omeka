@@ -31,12 +31,10 @@ Created by Brandon Locke and Dawson McCall
 1. Click on *Items* at the top of the menu on the far left of the screen
 2. Click *Add an Item* in the top left corner of the screen - it's a green button
 3. There are four different tabs at the top:
-
-*Dublin Core* is more descriptive metadata
-*Item Type Metadata* has metadata that varies based upon the format of the item
-*Files* allows you to upload any number of files (sound files, video files, photos, PDFs, etc)
-*Tags* allows you to add tags that enable searching and browsing across different parts of the collections
-
+* *Dublin Core* is more descriptive metadata
+* *Item Type Metadata* has metadata that varies based upon the format of the item
+* *Files* allows you to upload any number of files (sound files, video files, photos, PDFs, etc)
+* *Tags* allows you to add tags that enable searching and browsing across different parts of the collections
 4. Start filling out your Dublin Core metadata for the item. There is a brief description of what is expected for each field. Click on *Add Input* if you want to add more than one of any field. For example, if you want more than one 'Subject', rather than listing them all in the subject field, add multiple inputs and put one subject term in each field.
 3. Add any relevant Item Type Metadata on the next tab. Once you select an item type, additional, specialized fields will appear below.
 4. Upload any media files you would like associated with the item.
